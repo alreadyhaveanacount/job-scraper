@@ -6,17 +6,17 @@ A job vacancy web-scraper, built with **BeautifulSoup**, **Pandas** and **Stream
 
 ## 🚀 Funcionalities
 
-- 📄 Coleta dados de várias páginas do Remote.com
+- 📄 Scrapes Remote.com data
 - 🔍 Filtros de busca:
-  - Tipo de contrato (Full-time, Part-time, Contract)
-  - Local de trabalho (Remoto, Híbrido, Presencial)
-  - Senioridade mínima
-  - Moeda e salário mínimo
-  - Palavras-chave da função
-  - Frequência de viagens
-- 💰 Conversão automática de salários para valor mensal
-- 📥 Exportação dos dados em **CSV**
-- 👁️ Visualização dos resultados diretamente na tela
+  - Contract type (Full-time, Part-time, Contract)
+  - Workplace (Remote, Hybrid, On-site)
+  - Minimal seniority
+  - Currency and minimal salary
+  - Key-words
+  - Travel frequency
+- 💰 Calculates monthly average
+- 📥 Exports data in **CSV**
+- 👁️ Data visualization
 
 ---
 
@@ -32,4 +32,4 @@ A job vacancy web-scraper, built with **BeautifulSoup**, **Pandas** and **Stream
 
 ## 📸 Screenshot
 
-![Job Scraper Screenshot](screenshot.png)
+![Job Scraper Screenshot](Interface.png)
