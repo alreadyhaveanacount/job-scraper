@@ -11,6 +11,7 @@ workplace_location = st.multiselect("Workplace location", ["remote", "hybrid", "
 seniority = st.multiselect("Minimal seniority level", ["entry_level", "mid_level", "senior", "manager", "director", "executive"])
 travel_frequency = st.selectbox("Travel frequency", ("Not relevant", "never", "sometimes", "often"))
 compensation_currency = st.selectbox("Compensation currency", ("USD", "CAD", "EUR", "GBP", "AUD"))
+compensation_frequency = st.selectbox("Compensation frequency", ("Not relevant", "hourly", "yearly", "monthly"))
 compensation = st.number_input("Minimal salary", step=0.01, min_value=0.0, format="%.2f")
 footer = st.container()
 
@@ -26,6 +27,7 @@ def scrape_for_jobs():
     if len(workplace_location) > 0: arguments["workplaceLocation"] = workplace_location
     if len(seniority) > 0: arguments["seniority"] = seniority
     if travel_frequency != "Not relevant": arguments["travelFrequency"] = travel_frequency
+    if compensation_frequency != "Not relevant": arguments["compensationFrequency"] = compensation_frequency
     if compensation > 0: arguments["compensation"] = compensation * 100
 
     with footer:

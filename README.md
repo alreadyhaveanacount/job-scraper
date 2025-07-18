@@ -32,5 +32,4 @@ A job vacancy web-scraper, built with **BeautifulSoup**, **Pandas** and **Stream
 
 ## 📸 Screenshot
 
-![Job Scraper Screenshot](screenshot.png)  
-*Interface Streamlit com filtros e resultado em tabela*
+![Job Scraper Screenshot](screenshot.png)
