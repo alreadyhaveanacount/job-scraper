@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 from job_scraper import load_page
 
-st.title("Job Scrapper")
+st.title("Job Scraper")
 
 query = st.text_input("Job function?")
 page_range = st.slider("Starting - Ending Page", 1, 50, (1, 10), 1)
