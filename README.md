@@ -1,19 +1,36 @@
-# 🎈 Blank app template
+# 💼 Job Scraper with personalized filters (Remote.com)
 
-A simple Streamlit app template for you to modify!
+A job vacancy web-scraper, built with **BeautifulSoup**, **Pandas** and **Streamlit**, that scrapes [Remote.com](https://remote.com/jobs/all) based on personalized filters.
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://blank-app-template.streamlit.app/)
+---
 
-### How to run it on your own machine
+## 🚀 Funcionalities
 
-1. Install the requirements
+- 📄 Coleta dados de várias páginas do Remote.com
+- 🔍 Filtros de busca:
+  - Tipo de contrato (Full-time, Part-time, Contract)
+  - Local de trabalho (Remoto, Híbrido, Presencial)
+  - Senioridade mínima
+  - Moeda e salário mínimo
+  - Palavras-chave da função
+  - Frequência de viagens
+- 💰 Conversão automática de salários para valor mensal
+- 📥 Exportação dos dados em **CSV**
+- 👁️ Visualização dos resultados diretamente na tela
 
-   ```
-   $ pip install -r requirements.txt
-   ```
+---
 
-2. Run the app
+## Libraries used
 
-   ```
-   $ streamlit run streamlit_app.py
-   ```
+- [Python 3.10+](https://www.python.org/)
+- [BeautifulSoup4](https://www.crummy.com/software/BeautifulSoup/)
+- [Pandas](https://pandas.pydata.org/)
+- [Streamlit](https://streamlit.io/)
+- [Requests](https://docs.python-requests.org/)
+
+---
+
+## 📸 Screenshot
+
+![Job Scraper Screenshot](screenshot.png)  
+*Interface Streamlit com filtros e resultado em tabela*
