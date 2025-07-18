@@ -7,7 +7,7 @@ A job vacancy web-scraper, built with **BeautifulSoup**, **Pandas** and **Stream
 ## 🚀 Funcionalities
 
 - 📄 Scrapes Remote.com data
-- 🔍 Filtros de busca:
+- 🔍 Search filters:
   - Contract type (Full-time, Part-time, Contract)
   - Workplace (Remote, Hybrid, On-site)
   - Minimal seniority
