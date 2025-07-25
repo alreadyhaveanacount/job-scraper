@@ -1,0 +1,45 @@
+body {
+    background: black;
+}
+
+* {
+    font-family: "Roboto";
+}
+
+button {
+    font-weight: bold;
+    background:#5C4E4E;
+    border: 2px solid #292929;
+    color: #fafafa;
+    border-radius: 5px;
+    font-size: 18px;
+    height: 40px !important;
+    cursor: pointer;
+}
+
+#filters, #scraped_stuff {
+    padding: 10px;
+    background: #242424;
+    border: 2px solid #292929;
+    border-radius: 5px;
+}
+
+#scraped_stuff {
+    margin-top: 10px;
+}
+
+#filters input {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 15px;
+}
+
+#filters input:not(:first-child), #filters .dash-dropdown, button {
+    margin-top: 10px;
+}
+
+#filters input, button {
+    width: 100%;
+    height: 34px;
+    box-sizing: border-box;
+}
